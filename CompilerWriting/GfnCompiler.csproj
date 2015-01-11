@@ -52,5 +52,9 @@
     <None Include="samples\helloworld.gfn" />
     <None Include="samples\loop.gfn" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reference\easygrammar.txt" />
+    <Content Include="Reference\grammar.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
